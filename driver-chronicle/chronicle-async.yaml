@@ -1,0 +1,7 @@
+name: Chronicle
+driverClass: io.openmessaging.benchmark.driver.chronicle.ChronicleBenchmarkDriver
+
+path: /data/tmp
+
+# requires Chronicle Queue Messaging Suite
+bufferMode: Asynchronous
